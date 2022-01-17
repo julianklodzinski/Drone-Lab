@@ -9,9 +9,9 @@ steps:
   image: alpine
   commands:
   - echo Checking if I am anonymous or any operations
-  - echo #################
+  - echo "-----------------"
   - ls
-  - echo #################
+  - echo "-----------------"
   - cat /etc/*-release
   - whoami
 
