@@ -10,7 +10,7 @@ steps:
   commands:
   - echo Checking if I am anonymous or any operations
   - echo "-----------------"
-  - ls
+  - ls src
   - echo "-----------------"
   - cat /etc/*-release
   - whoami
